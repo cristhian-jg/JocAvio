@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Modak";
+  src: url(../fonts/Modak-Regular.ttf);
+}
+
+#avio {
+  /* açò caldrà llevar-ho al posar els teus estils, però per a que veges
+  on està en la pantalla ho he posat amb un color i li he donat un tamanys inicial*/
+  background-color: blue;
+  width: 10px;
+  height: 10px;
+}
+
+.marcador {
+  box-shadow: 12px 12px 20px black;
+  border-radius: 15px;
+  font-family: Modak;
+  font-size: 2em;
+  float: right;
+  margin: 15px;
+  padding: 15px;
+  background-color: rgba(185, 181, 181, 0.5);
+  color: indianred;
+  border: solid white;
+}
+
+.menu {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  border-top: solid white;
+  border-width: 2px;
+}
+
+button {
+  border-radius: 20px;
+  margin: 15px;
+  padding: 15px 25px 15px 25px;
+  background-color:rgba(144, 189, 241, 0.5);
+  border: solid rgba(144, 189, 241);
+  border-width: 1px;
+  color: white;
+}
+
+body {
+  height: 900px;
+  background-image:url("../fons_nivells/nivell1_render.png");
+  background-size: cover;
+}
